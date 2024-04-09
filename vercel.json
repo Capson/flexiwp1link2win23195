@@ -1,8 +1,11 @@
 {
-  "routes": [
+  "redirects": [{"source": "/sample",       "destination": "/sample",       "permanent": true     }
+],
+  "rewrites": [
     {
-      "src": "/(.*)",
-      "dest": "https://flywp.1link2.win//$1"
- }
+      "source": "/(.*)",
+      "destination": "https://flywp.1link2.win//$1"
+    }
   ]
 }
+    
